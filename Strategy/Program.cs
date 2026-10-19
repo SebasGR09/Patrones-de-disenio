@@ -13,10 +13,11 @@ namespace Strategy
             IPaymentStrategy strategy_1 = new BankTransferPayment();
             IPaymentStrategy strategy_2 = new CreditCardPayment();
             IPaymentStrategy strategy_3 = new PayPalPayment();
+            IPaymentStrategy strategy_4 = new CryptoPayment();
 
 
             // Servicio de pagos que recibe la estrategias
-            PaymentService pagos = new PaymentService(strategy_3);
+            PaymentService pagos = new PaymentService(strategy_4);
 
             Console.WriteLine(pagos.ProcessPayment(1000));
         }
