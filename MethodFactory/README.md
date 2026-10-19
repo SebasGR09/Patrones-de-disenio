@@ -1,7 +1,6 @@
 # Práctica: fábrica de documentos
 
-Vamos a cambiar de contexto para que practiques el patrón sin copiar el ejemplo de notificaciones.
-**Situación: **Una aplicación puede crear documentos PDF o Word. Cada documento tiene un método Open() que muestra un mensaje.
+**Situación:** Una aplicación puede crear documentos PDF o Word. Cada documento tiene un método Open() que muestra un mensaje.
 
 Tu reto en C#
 **1. Crea la interfaz IDocument**
